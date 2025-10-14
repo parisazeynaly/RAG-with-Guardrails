@@ -1,0 +1,31 @@
+ # Simple policy for toxicity / harassment / hate safety.
+version: 1
+categories:
+  toxicity:
+    keywords:
+      - stupid
+      - idiot
+      - kill yourself
+      - go die
+    threshold: 0.65   # classifier probability threshold (if classifier enabled)
+    action: block     # block | filter | safe_respond
+  harassment:
+    keywords:
+      - worthless
+      - pathetic
+    threshold: 0.60
+    action: filter
+  hate:
+    keywords:
+      - [slur_1, slur_2]   # Replace with real terms relevant to your locale/policy
+    threshold: 0.70
+    action: block
+
+classifier:
+  enabled: true
+  model_name: unitary/unbiased-toxic-roberta
+  label: toxic        # expected positive label name for probability extraction
+
+general:
+  log_decisions: true
+  max_prompt_chars: 4000
