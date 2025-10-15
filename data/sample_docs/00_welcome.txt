@@ -1,0 +1,4 @@
+Welcome to the RAG with Guardrails starter kit.
+Feel free to replace these documents with your own corpus.
+The retriever will chunk and embed the content and the guardrails
+will prevent unsafe or toxic outputs.
