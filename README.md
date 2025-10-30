@@ -38,5 +38,6 @@ This project is designed as a foundation for further research. Potential extensi
 - **XAI Method Comparison:** Compare Integrated Gradients, LIME, SHAP, and attention-based explanations to assess interpretability.  
 - **Safety–Utility Trade-off:** Systematically evaluate how stricter guardrails affect both safety and the usefulness of generated answers.  
 - **Human Evaluation:** Conduct user studies to measure how understandable and actionable the XAI explanations are.  
-- **Scalability:** Extend the RAG corpus to larger datasets and measure performance in real-world workloads.  
+- **Scalability:** Extend the RAG corpus to larger datasets and measure performance in real-world workloads.
+- ...
 
