@@ -4,7 +4,7 @@
 Large Language Models (LLMs) can generate rich and helpful answers, but they also risk producing **toxic outputs** or falling victim to **prompt injection attacks**. To increase **trust and safety**, this project combines three components:
 1. **RAG (Retrieval-Augmented Generation):** Retrieve factual knowledge from a text corpus.  
 2. **Guardrail:** Detect and block unsafe or toxic outputs.  
-3. **XAI (Explainable AI):** Provide transparent explanations for guardrail decisions.  
+3. **XAI (Explainable AI):** Provide transparent explanations for guardrail decisions..   
 
 ---
 
